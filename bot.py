@@ -280,7 +280,7 @@ def new_alerts(state: dict, sightings: dict[str, Sighting], now: float) -> list[
     return out
 
 
-# ---------------------------------------------------------------- Discord 內容
+# ----------------------------------------------------------------  內容
 
 def ts(t: float, style: str = "t") -> str:
     return f"<t:{int(t)}:{style}>"
@@ -376,7 +376,7 @@ def build_alert(s: Sighting, cfg: dict, has_image: bool) -> dict:
     return embed
 
 
-# ---------------------------------------------------------------- Discord Webhook
+# ----------------------------------------------------------------  Webhook
 
 class Webhook:
     def __init__(self, url: str):
@@ -393,7 +393,7 @@ class Webhook:
             r = self.http.request(method, self.base + path, params=params, timeout=30, **kw)
             if r.status_code == 429:
                 wait = float(r.json().get("retry_after", 2))
-                log(f"Discord 限流，等 {wait}s")
+                log(f" 限流，等 {wait}s")
                 time.sleep(wait + 0.5)
                 continue
             return r
@@ -552,7 +552,7 @@ def tile_image(page, x: int, y: int) -> bytes | None:
 def main() -> int:
     from playwright.sync_api import sync_playwright
 
-    webhook_url = os.environ.get("https://ptb.discord.com/api/webhooks/1564476843963457586/lrSaxUTtyW8mNF9rkiEc6TUhCkkko5Jhg-N8ksOv-KeUdIMUVQRCbOzInbfC3sj_P2ip", "").strip()
+    webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
     dry = os.environ.get("DRY_RUN") == "1" or not webhook_url
     force = os.environ.get("FORCE_REPORT", "").lower() in ("1", "true", "yes")
     if dry:
