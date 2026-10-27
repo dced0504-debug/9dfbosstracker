@@ -552,7 +552,7 @@ def tile_image(page, x: int, y: int) -> bytes | None:
 def main() -> int:
     from playwright.sync_api import sync_playwright
 
-    webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    webhook_url = os.environ.get("https://ptb.discord.com/api/webhooks/1564476843963457586/lrSaxUTtyW8mNF9rkiEc6TUhCkkko5Jhg-N8ksOv-KeUdIMUVQRCbOzInbfC3sj_P2ip", "").strip()
     dry = os.environ.get("DRY_RUN") == "1" or not webhook_url
     force = os.environ.get("FORCE_REPORT", "").lower() in ("1", "true", "yes")
     if dry:
