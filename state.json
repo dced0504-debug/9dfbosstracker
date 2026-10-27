@@ -1,17 +1,19 @@
 {
   "event_last_seen": {
     "Pumpkin Tendril": 1793109600,
+    "Scarecrow": 1793116800,
     "Slenderman": 1793109600,
-    "Snowman Head": 1793113200,
+    "Snowman Head": 1793116800,
     "Werewoo": 1793113200
   },
   "game_day": "2026-10-27 01:00 GMT-0700",
   "hourly_messages": [
     "1564647772194480240",
     "1564664266752135238",
-    "1564667813065523350"
+    "1564667813065523350",
+    "1564681613332451478"
   ],
-  "last_report_hour": "2026-10-27T15",
+  "last_report_hour": "2026-10-27T16",
   "seen_today": {
     "Pumpkin Tendril": {
       "coords": [
@@ -46,6 +48,42 @@
       "kind": "event",
       "slots": [
         "ID"
+      ]
+    },
+    "Scarecrow": {
+      "coords": [
+        [
+          1035,
+          982
+        ],
+        [
+          1038,
+          985
+        ],
+        [
+          1041,
+          1005
+        ],
+        [
+          1055,
+          1019
+        ],
+        [
+          1042,
+          1001
+        ],
+        [
+          1049,
+          1011
+        ]
+      ],
+      "end": 1793120402.0,
+      "first_seen": 1793119553.6135798,
+      "ghost": false,
+      "kind": "event",
+      "slots": [
+        "I3",
+        "I4"
       ]
     },
     "Slenderman": {
