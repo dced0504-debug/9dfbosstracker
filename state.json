@@ -39,6 +39,22 @@
         "I1"
       ]
     },
+    "Devil Hound": {
+      "coords": [
+        [
+          1053,
+          992
+        ]
+      ],
+      "end": 1793154919.0,
+      "first_seen": 1793145428.0589635,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I1",
+        "I8"
+      ]
+    },
     "Nefertiti": {
       "coords": [
         [
