@@ -1,11 +1,11 @@
 {
   "event_last_seen": {
     "Nefertiti": 1793124000,
-    "Pumpkin Tendril": 1793124000,
+    "Pumpkin Tendril": 1793127600,
     "Scarecrow": 1793124000,
     "Slenderman": 1793120400,
-    "Snowman Head": 1793124000,
-    "Werewoo": 1793113200
+    "Snowman Head": 1793127600,
+    "Werewoo": 1793127600
   },
   "game_day": "2026-10-27 01:00 GMT-0700",
   "hourly_messages": [
@@ -14,9 +14,10 @@
     "1564667813065523350",
     "1564681613332451478",
     "1564693199824617513",
-    "1564702011268534314"
+    "1564702011268534314",
+    "1564726199668834375"
   ],
-  "last_report_hour": "2026-10-27T18",
+  "last_report_hour": "2026-10-27T19",
   "seen_today": {
     "Behemoth": {
       "coords": [
