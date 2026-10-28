@@ -1,11 +1,11 @@
 {
   "event_last_seen": {
     "Nefertiti": 1793174400,
-    "Pumpkin Tendril": 1793206800,
+    "Pumpkin Tendril": 1793210400,
     "Scarecrow": 1793210400,
     "Slenderman": 1793210400,
     "Snowman Head": 1793210400,
-    "Werewoo": 1793206800
+    "Werewoo": 1793210400
   },
   "game_day": "2026-10-28 01:00 GMT-0700",
   "hourly_messages": [
@@ -33,6 +33,21 @@
       ],
       "end": 1793193806.0,
       "first_seen": 1793183213.6398113,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I1"
+      ]
+    },
+    "Devil Hound": {
+      "coords": [
+        [
+          1052,
+          991
+        ]
+      ],
+      "end": 1793222943.0,
+      "first_seen": 1793213911.9732897,
       "ghost": false,
       "kind": "daily",
       "slots": [
