@@ -343,7 +343,7 @@ def build_report(rows, events, state, cfg, reset_text, now, has_image) -> dict:
     if len(block) > room:
         block = block[: max(0, room - 20)] + "\n... (truncated)\n```"
     desc.append(block)
-    embed = {"title": "📊 Dead Frontier Live Bossmap Tracker", "url": cfg["bossmap_urls"],
+    embed = {"title": "📊 Dead Frontier Live Bossmap Tracker", "url": cfg["bossmap_urls"][0],
              "description": "\n".join(desc), "color": COLOR_REPORT}
     if has_image:
         embed["image"] = {"url": "attachment://bossmap.png"}
