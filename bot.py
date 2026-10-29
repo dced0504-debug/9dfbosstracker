@@ -598,8 +598,7 @@ def main() -> int:
 
         if not rows and not events:
             log("抓不到任何 boss 資料（網站可能改版或擋住），這次不發文")
-            browser.close()
-            return 1
+            raise ValueError("No boss data retrieved from this URL")
 
         roll_game_day(state, day_key)
         sightings = detect(rows, events, slot_cells, cfg, reset_ts, json_ok=snap.payload is not None)
