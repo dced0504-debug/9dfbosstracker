@@ -234,8 +234,13 @@ def detect(rows: list[Row], events: list[Event], slot_cells: dict[str, list[tupl
     # 來源二：畫面上的 Current Cycle 表格（Slot 標籤 + 地圖格子）
     for row in rows:
         is_ghost = row.slot.upper() == "GHOST"
-        for _, name in row.bosses:
-            d = _match(name, daily)
+        for count, name in row.bosses:
+            # Check if this is a bandit row, and reconstruct the target string
+            if name.lower() == "bandits":
+                d = _match(f"{count} x {name}", daily)
+            else:
+                d = _match(name, daily)
+
             if d:
                 if d.lower() == "devil hound":
                     if is_ghost:
