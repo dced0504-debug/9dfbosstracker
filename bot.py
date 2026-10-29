@@ -236,8 +236,10 @@ def detect(rows: list[Row], events: list[Event], slot_cells: dict[str, list[tupl
         is_ghost = row.slot.upper() == "GHOST"
         for count, name in row.bosses:
             # Check if this is a bandit row, and reconstruct the target string
-            if name.lower() == "bandits":
-                d = _match(f"{count} x {name}", daily)
+            if name.lower() == "bandits" and str(count) == "8":
+                d = _match("8 x Bandits", daily)
+            elif name.lower() == "bandit":
+                d = None  # Explicitly ignore other bandit counts (1x, 2x, etc.)
             else:
                 d = _match(name, daily)
 
