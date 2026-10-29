@@ -568,25 +568,25 @@ def main() -> int:
         page = browser.new_page(viewport={"width": 1400, "height": 1600}, device_scale_factor=2,
                                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                                            "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
-            snap = None
-            # This safely looks for your new list, or falls back to the old single string if missing
-            urls_to_try = cfg.get("bossmap_urls", [cfg.get("bossmap_url")])
+        snap = None
+        # This safely looks for your new list, or falls back to the old single string if missing
+        urls_to_try = cfg.get("bossmap_urls", [cfg.get("bossmap_url")])
     
-            for url in urls_to_try:
-                if not url:
-                    continue
-                try:
-                    log(f"Attempting to scrape boss data from: {url}")
-                    snap = scrape(page, url)
-                    if snap:
+        for url in urls_to_try:
+            if not url:
+                continue
+            try:
+                log(f"Attempting to scrape boss data from: {url}")
+                snap = scrape(page, url)
+                if snap:
                         break  # Success! Break out of the loop and continue running
-                except Exception as e:
-                    log(f"Failed to load {url} due to error: {e}. Trying next fallback...")
+            except Exception as e:
+                log(f"Failed to load {url} due to error: {e}. Trying next fallback...")
     
-            if not snap:
-                log("All available bossmap mirrors are currently offline or timed out.")
-                browser.close()
-                return 1
+        if not snap:
+            log("All available bossmap mirrors are currently offline or timed out.")
+            browser.close()
+            return 1
 
         rows = parse_rows(snap.rows_raw)
         events = parse_events(snap.payload, now)
