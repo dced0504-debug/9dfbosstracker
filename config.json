@@ -41,7 +41,7 @@
 
   "event_expected_days": 3,
 
-  "daily_window_minutes": 90,
+  "daily_window_minutes": 1440,
 
   "map_bounds": { "x_min": 1000, "x_max": 1058, "y_min": 981, "y_max": 1035 }
 }
