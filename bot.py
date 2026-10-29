@@ -373,7 +373,7 @@ def build_alert(s: Sighting, cfg: dict, has_image: bool) -> dict:
     if s.end:
         lines.append(f"Despawns at {ts(s.end)} ({ts(s.end, 'R')})")
     embed = {"title": ("Daily Special" if s.kind == "daily" else "Event Boss") + f": {name}",
-             "url": cfg["bossmap_url"], "description": "\n".join(lines),
+             "url": cfg["bossmap_urls"][0], "description": "\n".join(lines),
              "color": COLOR_DAILY if s.kind == "daily" else COLOR_EVENT,
              "footer": {"text": "Data: DFProfiler"}}
     if has_image:
