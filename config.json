@@ -1,6 +1,9 @@
 {
-  "bossmap_url": "https://www.dfprofiler.com/bossmap",
-
+  "bossmap_urls": [
+    "https://www.dfprofiler.com/bossmap",
+    "https://test2.dfprofiler.com/bossmap"
+  ],
+  
   "keep_hourly_messages": 12,
 
   "alert_mention": "",
