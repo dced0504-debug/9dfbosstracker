@@ -196,6 +196,21 @@
         "I2"
       ]
     },
+    "Volatile Leaper": {
+      "coords": [
+        [
+          1020,
+          1024
+        ]
+      ],
+      "end": 1793543921.0,
+      "first_seen": 1793533477.3069608,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I1"
+      ]
+    },
     "Werewoo": {
       "coords": [
         [
