@@ -1,15 +1,14 @@
 {
   "event_last_seen": {
-    "Nefertiti": 1793908800,
-    "Pumpkin Tendril": 1793977200,
-    "Scarecrow": 1793977200,
+    "Nefertiti": 1793980800,
+    "Pumpkin Tendril": 1793980800,
+    "Scarecrow": 1793980800,
     "Slenderman": 1793952000,
-    "Snowman Head": 1793977200,
+    "Snowman Head": 1793980800,
     "Werewoo": 1793977200
   },
   "game_day": "2026-11-06 01:00 GMT-0800",
   "hourly_messages": [
-    "1568091730618875994",
     "1568101963604951173",
     "1568115591665946635",
     "1568129513307504730",
@@ -20,9 +19,10 @@
     "1568238028428812309",
     "1568255620522713249",
     "1568271285409153135",
-    "1568282380463247442"
+    "1568282380463247442",
+    "1568304875295735972"
   ],
-  "last_report_hour": "2026-11-06T15",
+  "last_report_hour": "2026-11-06T16",
   "seen_today": {
     "Behemoth": {
       "coords": [
@@ -57,6 +57,21 @@
       "kind": "daily",
       "slots": [
         "I1"
+      ]
+    },
+    "Nefertiti": {
+      "coords": [
+        [
+          3000,
+          3000
+        ]
+      ],
+      "end": 1793983801.0,
+      "first_seen": 1793983415.1545331,
+      "ghost": true,
+      "kind": "event",
+      "slots": [
+        "OS"
       ]
     },
     "Pumpkin Queen": {
