@@ -1,6 +1,6 @@
 {
   "event_last_seen": {
-    "Nefertiti": 1793980800,
+    "Nefertiti": 1794063600,
     "Pumpkin Tendril": 1794056400,
     "Scarecrow": 1794060000,
     "Slenderman": 1794063600,
@@ -24,6 +24,51 @@
   ],
   "last_report_hour": "2026-11-07T15",
   "seen_today": {
+    "Behemoth": {
+      "coords": [
+        [
+          1056,
+          1018
+        ]
+      ],
+      "end": 1794077176.0,
+      "first_seen": 1794066455.4853072,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I1"
+      ]
+    },
+    "Nefertiti": {
+      "coords": [
+        [
+          3000,
+          3000
+        ]
+      ],
+      "end": 1794066601.0,
+      "first_seen": 1794066455.4853072,
+      "ghost": true,
+      "kind": "event",
+      "slots": [
+        "OS"
+      ]
+    },
+    "Pumpkin Queen": {
+      "coords": [
+        [
+          1049,
+          990
+        ]
+      ],
+      "end": 1794072515.0,
+      "first_seen": 1794066455.4853072,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "IA"
+      ]
+    },
     "Pumpkin Tendril": {
       "coords": [
         [
