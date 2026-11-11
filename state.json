@@ -1,6 +1,6 @@
 {
   "event_last_seen": {
-    "Nefertiti": 1794420000,
+    "Nefertiti": 1794434400,
     "Pumpkin Tendril": 1794434400,
     "Scarecrow": 1794420000,
     "Slenderman": 1794423600,
@@ -46,8 +46,8 @@
           3000
         ]
       ],
-      "end": 1794421501.0,
-      "first_seen": 1794421093.4401054,
+      "end": 1794437101.0,
+      "first_seen": 1794437009.1617727,
       "ghost": true,
       "kind": "event",
       "slots": [
