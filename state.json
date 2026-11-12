@@ -24,6 +24,21 @@
   ],
   "last_report_hour": "2026-11-12T22",
   "seen_today": {
+    "Bandits": {
+      "coords": [
+        [
+          1051,
+          991
+        ]
+      ],
+      "end": 1794532780.0,
+      "first_seen": 1794524251.418337,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "B1"
+      ]
+    },
     "Behemoth": {
       "coords": [
         [
