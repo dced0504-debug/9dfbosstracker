@@ -1,8 +1,8 @@
 {
   "event_last_seen": {
     "Nefertiti": 1794621600,
-    "Pumpkin Tendril": 1794639600,
-    "Scarecrow": 1794643200,
+    "Pumpkin Tendril": 1794646800,
+    "Scarecrow": 1794646800,
     "Slenderman": 1794646800,
     "Snowman Head": 1794646800,
     "Werewoo": 1794646800
@@ -24,6 +24,76 @@
   ],
   "last_report_hour": "2026-11-14T09",
   "seen_today": {
+    "Pumpkin Tendril": {
+      "coords": [
+        [
+          1022,
+          1028
+        ],
+        [
+          1015,
+          1030
+        ],
+        [
+          1017,
+          1025
+        ],
+        [
+          1020,
+          1025
+        ],
+        [
+          1024,
+          1028
+        ],
+        [
+          1021,
+          1028
+        ]
+      ],
+      "end": 1794654001.0,
+      "first_seen": 1794650349.4927683,
+      "ghost": false,
+      "kind": "event",
+      "slots": [
+        "I4"
+      ]
+    },
+    "Scarecrow": {
+      "coords": [
+        [
+          1041,
+          1005
+        ],
+        [
+          1039,
+          1002
+        ],
+        [
+          1035,
+          989
+        ],
+        [
+          1038,
+          985
+        ],
+        [
+          1046,
+          1013
+        ],
+        [
+          1048,
+          992
+        ]
+      ],
+      "end": 1794654001.0,
+      "first_seen": 1794650349.4927683,
+      "ghost": false,
+      "kind": "event",
+      "slots": [
+        "I3"
+      ]
+    },
     "Slenderman": {
       "coords": [
         [
@@ -86,13 +156,50 @@
           993
         ]
       ],
-      "end": 1794650401.0,
-      "first_seen": 1794647767.914046,
+      "end": 1794654001.0,
+      "first_seen": 1794650349.4927683,
       "ghost": false,
       "kind": "event",
       "slots": [
-        "I9",
-        "IA"
+        "IA",
+        "I1",
+        "IB",
+        "I2"
+      ]
+    },
+    "Volatile Leaper": {
+      "coords": [
+        [
+          1013,
+          1024
+        ],
+        [
+          1010,
+          981
+        ],
+        [
+          1017,
+          981
+        ],
+        [
+          1006,
+          982
+        ],
+        [
+          1013,
+          982
+        ],
+        [
+          1018,
+          982
+        ]
+      ],
+      "end": 1794660154.0,
+      "first_seen": 1794650349.4927683,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I1"
       ]
     },
     "Werewoo": {
