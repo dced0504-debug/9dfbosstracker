@@ -1,6 +1,6 @@
 {
   "event_last_seen": {
-    "Nefertiti": 1794621600,
+    "Nefertiti": 1794668400,
     "Pumpkin Tendril": 1794668400,
     "Scarecrow": 1794664800,
     "Slenderman": 1794668400,
@@ -24,6 +24,21 @@
   ],
   "last_report_hour": "2026-11-14T15",
   "seen_today": {
+    "Nefertiti": {
+      "coords": [
+        [
+          3000,
+          3000
+        ]
+      ],
+      "end": 1794671701.0,
+      "first_seen": 1794671356.718686,
+      "ghost": true,
+      "kind": "event",
+      "slots": [
+        "OS"
+      ]
+    },
     "Pumpkin Tendril": {
       "coords": [
         [
