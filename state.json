@@ -1,11 +1,11 @@
 {
   "event_last_seen": {
-    "Nefertiti": 1794729600,
+    "Nefertiti": 1794747600,
     "Pumpkin Tendril": 1794747600,
     "Scarecrow": 1794747600,
     "Slenderman": 1794740400,
     "Snowman Head": 1794747600,
-    "Werewoo": 1794744000
+    "Werewoo": 1794747600
   },
   "game_day": "2026-11-15 01:00 GMT-0800",
   "hourly_messages": [
@@ -59,6 +59,21 @@
         "I1"
       ]
     },
+    "Nefertiti": {
+      "coords": [
+        [
+          3000,
+          3000
+        ]
+      ],
+      "end": 1794751201.0,
+      "first_seen": 1794751193.945739,
+      "ghost": true,
+      "kind": "event",
+      "slots": [
+        "OS"
+      ]
+    },
     "Pumpkin Tendril": {
       "coords": [
         [
@@ -86,12 +101,13 @@
           1007
         ]
       ],
-      "end": 1794751201.0,
-      "first_seen": 1794747803.0163465,
+      "end": 1794754801.0,
+      "first_seen": 1794751193.945739,
       "ghost": false,
       "kind": "event",
       "slots": [
-        "I4"
+        "I4",
+        "IC"
       ]
     },
     "Scarecrow": {
@@ -191,48 +207,50 @@
           1013
         ]
       ],
-      "end": 1794751201.0,
-      "first_seen": 1794747803.0163465,
+      "end": 1794754801.0,
+      "first_seen": 1794751193.945739,
       "ghost": false,
       "kind": "event",
       "slots": [
         "I2",
-        "I3"
+        "I9",
+        "I3",
+        "IA"
       ]
     },
     "Werewoo": {
       "coords": [
         [
-          1040,
+          1042,
+          996
+        ],
+        [
+          1038,
+          1019
+        ],
+        [
+          1058,
           1005
         ],
         [
-          1057,
-          1013
-        ],
-        [
           1036,
-          1008
-        ],
-        [
-          1043,
           1018
         ],
         [
-          1037,
-          982
+          1043,
+          1006
         ],
         [
-          1053,
-          984
+          1045,
+          981
         ]
       ],
-      "end": 1794747601.0,
-      "first_seen": 1794744741.3662214,
+      "end": 1794754801.0,
+      "first_seen": 1794751193.945739,
       "ghost": false,
       "kind": "event",
       "slots": [
-        "I3"
+        "IB"
       ]
     }
   }
