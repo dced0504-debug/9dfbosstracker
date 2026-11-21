@@ -24,6 +24,21 @@
   ],
   "last_report_hour": "2026-11-21T10",
   "seen_today": {
+    "Behemoth": {
+      "coords": [
+        [
+          1055,
+          1018
+        ]
+      ],
+      "end": 1795268382.0,
+      "first_seen": 1795258588.4179423,
+      "ghost": false,
+      "kind": "daily",
+      "slots": [
+        "I2"
+      ]
+    },
     "Nefertiti": {
       "coords": [
         [
